@@ -1,5 +1,3 @@
-# Welcome to your GPT Engineer project
-
 ## Project info
 
 **Project**: vancouver-tech-connector
@@ -9,8 +7,6 @@
 ## How can I edit this code?
 
 There are several ways of editing your application.
-
-**Use GPT Engineer**
 
 Simply visit the GPT Engineer project at [GPT Engineer](https://gptengineer.app/projects/8991e4b4-9239-40c4-a31d-0e8e826a3286/improve) and start prompting.
 
