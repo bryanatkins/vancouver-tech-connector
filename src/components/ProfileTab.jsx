@@ -11,6 +11,11 @@ const ProfileTab = () => {
     goals: ['Networking', 'Learning', 'Collaboration'],
   };
 
+  const handleSignOut = () => {
+    // Implement sign out logic here
+    console.log('User signed out');
+  };
+
   return (
     <div className="space-y-4">
       <div className="flex items-center space-x-4">
@@ -39,7 +44,7 @@ const ProfileTab = () => {
           ))}
         </div>
       </div>
-      <Button className="w-full">Edit Profile</Button>
+      <Button className="w-full" onClick={handleSignOut}>Sign Out</Button>
     </div>
   );
 };

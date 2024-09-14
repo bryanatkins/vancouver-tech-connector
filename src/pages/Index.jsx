@@ -1,6 +1,5 @@
 import React from 'react';
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { HomeIcon, CalendarIcon, UsersIcon, UserIcon } from "lucide-react";
 import NetworkTab from '../components/NetworkTab';
@@ -38,9 +37,6 @@ const Index = () => {
             </TabsContent>
           </Tabs>
         </CardContent>
-        <CardFooter>
-          <Button className="w-full">Sign Out</Button>
-        </CardFooter>
       </Card>
     </div>
   );
